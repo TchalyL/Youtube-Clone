@@ -5,6 +5,8 @@ const PORT = 3000
 // Register view engine
 app.set('view engine', 'ejs')
 
+app.use(express.static("public"))
+
 // Render views
 app.get('/', (req, res) => {
   let title = 'Youtube Clone'
