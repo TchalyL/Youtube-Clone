@@ -5,6 +5,7 @@ const PORT = 3000
 // Register view engine
 app.set('view engine', 'ejs')
 
+// Directory containing static images and styles
 app.use(express.static("public"))
 
 // Render views
