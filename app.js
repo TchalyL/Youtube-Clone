@@ -7,7 +7,11 @@ app.set('view engine', 'ejs')
 
 // Render views
 app.get('/', (req, res) => {
-  res.render('index')
+  let title = 'Youtube Clone'
+
+  res.render('index', {
+    title: title
+  })
 })
 
 app.listen(PORT, ()=> {
