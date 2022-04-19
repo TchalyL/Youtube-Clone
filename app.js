@@ -10,10 +10,12 @@ app.use(express.static("public"))
 
 // Render views
 app.get('/', (req, res) => {
-  let title = 'Youtube Clone'
+  // Title and Sidebar text
+  let title = 'Youtube Clone', home = 'Home', explore = 'Explore', subscriptions = 'Subscriptions',
+  originals = 'Originals', youtubeMusic = 'Youtube Music', library = 'Library'
 
   res.render('index', {
-    title: title
+    title, home, explore, subscriptions, originals, youtubeMusic, library
   })
 })
 
