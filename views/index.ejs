@@ -87,9 +87,49 @@
   
   <main>
     <section class="video-grid">
+      <% youtubers.forEach((youtuber) => {%> 
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="<%= youtuber.videoLink %>" target="_blank">
+              <img class="thumbnail" src=<%= youtuber.thumbnail%> >
+            </a>
+            <div class="video-time"><%= youtubers.videoTime %></div>
+          </div>
+      
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="<%= youtuber.channelLink %>" target="_blank">
+                  <img class="profile-picture" src=<%= youtuber.profilePicture%>>
+                </a>
+                <div class="tooltip">
+                  <img class="profile-picture" id="tooltip-profile-picture" src=<%= youtuber.profilePicture%>>
+                  <div class="tooltip-text">
+                    <div class="tooltip-video-author"><strong><%= youtuber.videoAuthor %> </strong></div>
+                    <div class="tooltip-total-subs"><%= youtuber.totalSubs %> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a href="<%= youtuber.videoLink %>" target="_blank"><%= youtuber.videoTitle %> </a>
+              </p>
+              <p class="video-author">
+                <%= youtuber.videoAuthor %>
+              </p>
+              <p class="video-stats">
+                <%= youtuber.videoStats %> 
+              </p>
+            </div>
+          </div>
+        </div>
+      <% }) %> 
+      
+
 
       <!--Marques Brownlee-->
-      <div class="video-preview">
+      <!-- <div class="video-preview">
         <div class="thumbnail-row">
           <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY" target="_blank">
             <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
@@ -124,10 +164,10 @@
             </p>
           </div>
         </div>
-      </div>
+      </div> -->
   
       <!--Markiplier-->
-      <div class="video-preview">
+      <!-- <div class="video-preview">
         <div class="thumbnail-row">
           <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk" target="_blank">
             <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
@@ -164,10 +204,10 @@
             </p>
           </div>
         </div>
-      </div>
+      </div> -->
       
       <!--SSSniperWolf-->
-      <div class="video-preview">
+      <!-- <div class="video-preview">
         <div class="thumbnail-row">
           <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w" target="_blank">
             <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
@@ -203,10 +243,10 @@
             </p>
           </div>
         </div>
-      </div>
+      </div> -->
     
       <!--Veritasium-->
-      <div class="video-preview">
+      <!-- <div class="video-preview">
         <div class="thumbnail-row">
           <a href="https://www.youtube.com/watch?v=094y1Z2wpJg" target="_blank">
             <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
@@ -242,10 +282,10 @@
             </p>
           </div>
         </div>
-      </div>
+      </div> -->
     
       <!--CS Dojo-->
-      <div class="video-preview">
+      <!-- <div class="video-preview">
         <div class="thumbnail-row">
           <a href="https://www.youtube.com/watch?v=86CQq3pKSUw" target="_blank">
             <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
@@ -281,10 +321,10 @@
             </p>
           </div>
         </div>
-      </div>
+      </div> -->
     
       <!--MrBeast-->
-      <div class="video-preview">
+      <!-- <div class="video-preview">
         <div class="thumbnail-row">
           <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg" target="_blank">
             <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
@@ -320,7 +360,7 @@
             </p>
           </div>
         </div>
-      </div>
+      </div> -->
   
     </section>
   </main>
