@@ -6,3 +6,8 @@ I originally completed the tutorial to refresh myself on HTML and CSS concepts a
 A few gripes that I had with the project was the need for copying and pasting large portions of code, with only minor tweeks, to account for each channel present in the grid. This made me realize that this code could instead be written dynamically using the Embedded JavaScript templating engine in Node.js.
 
 So, the primary purpose of this project is to recreate the final project I completed at the end of the tutorial using Node.js and EJS
+
+## Important
+This project will have no actually functionally built in  as the original project was only designed to help familiarize myself with HTML & CSS, not to incorporate functionality using JavaScript. 
+
+If I decide to further develop this project and incorporate functionality then it will be updated accordingly
