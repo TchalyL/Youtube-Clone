@@ -1,5 +1,5 @@
 # Youtube-Clone
-This is a rendition of the completed project done in this tutorial https://www.youtube.com/watch?v=G3e-cpL7ofc&amp;t=18430s by SuperSimpleDev.
+This is a rendition of my completed project done in this tutorial https://www.youtube.com/watch?v=G3e-cpL7ofc&amp;t=18430s by SuperSimpleDev.
 
 I originally completed the tutorial to refresh myself on HTML and CSS concepts as I am currently interested in pursuing a job as a front-end webdeveloper.
 
