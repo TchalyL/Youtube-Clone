@@ -18,7 +18,9 @@ app.get('/', (req, res) => {
     {videoAuthor: 'Marques Brownlee', videoTitle: 'Talking Tech and AI with Google CEO Sundar Pichai!',
     videoStats: '3.4M views &#183; 6 months ago', videoTime: '14:20', totalSubs: '15.5M subscribers',
     videoLink: 'https://www.youtube.com/watch?v=n2RNcPRtAiY', 
-    channelLink: 'https://www.youtube.com/channel/UCBJycsmduvYEL83R_U4JriQ'},
+    channelLink: 'https://www.youtube.com/channel/UCBJycsmduvYEL83R_U4JriQ',
+    thumbnail: 'thumbnails/thumbnail-1.webp',
+    profilePicture: 'channel-pictures/channel-1.jpeg'},
 
     {videoAuthor: 'Markiplier', videoTitle: 'Try Not To Laugh Challenge #9',
     videoStats: '19M views &#183; 4 years ago', videoTime: '8:22', totalSubs: '32.6M subscribers',
@@ -42,9 +44,8 @@ app.get('/', (req, res) => {
 
     {videoAuthor: 'MrBeast', videoTitle: 'Anything You Can Fit In The Circle I’ll Pay For',
     videoStats: '141M views &#183; 1 years ago', videoTime: '19:59', totalSubs: '93.6M subscribers',
-    videoLink: 'https://www.youtube.com/watch?v=yXWw0_UfSFg', 
+    videoLink: 'https://www.youtube.com/watch?v=yXWw0_UfSFg',
     channelLink: 'https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA'},
-    
   ]
 
   res.render('index', {
@@ -56,3 +57,4 @@ app.get('/', (req, res) => {
 app.listen(PORT, ()=> {
   console.log(`Listening on port ${PORT}...`)
 })
+
