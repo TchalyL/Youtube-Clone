@@ -28,13 +28,13 @@ git clone https://github.com/TchalyL/Youtube-Clone.git
 ```
 npm install
 ```
-3. Run the app with either of the two commands below in the terminal<br>
-This command runs the app using nodemon which allows for changes in the code to be reflected in the browser upon saving
+3. Run the app with either of the two commands below in the terminal  
+This command runs the app using nodemon which allows for changes in the code to be reflected in the browser upon saving.
 ```
 npm run devStart
 ```
-This command is the standard command for running node projects
+This command is the standard command for running node projects.
 ```
 node app.js
 ```
-4. In the browser, go to localhost:3000 to see the results
+4. In the browser, go to localhost:3000 to see the results.
