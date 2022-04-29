@@ -32,7 +32,7 @@ npm install
 This command runs the app using nodemon which allows for changes in the code to be reflected in the browser upon saving.
 ```
 npm run devStart
-```
+```  
 This command is the standard command for running node projects.
 ```
 node app.js
