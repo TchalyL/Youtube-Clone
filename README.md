@@ -11,3 +11,14 @@ So, the primary purpose of this project is to recreate the final project I compl
 This project will have no actual functionally built in  as the original project was only designed to help familiarize myself with HTML & CSS, not to incorporate functionality using JavaScript. 
 
 If I decide to further develop this project and incorporate functionality then it will be updated accordingly
+
+# Getting Started
+
+## Prerequisites
+-npm
+```
+npm install npm@latest -g
+```
+## Installation
+1. Clone the repo
+2. Install npm packages
