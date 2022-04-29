@@ -21,4 +21,11 @@ npm install npm@latest -g
 ```
 ## Installation
 1. Clone the repo
+```
+git clone https://github.com/TchalyL/Youtube-Clone.git
+```
 2. Install npm packages
+```
+npm install
+```
+4. Install nodemon...
