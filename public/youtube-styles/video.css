@@ -16,10 +16,10 @@
 /* 
 Media query
 Given a screen size of max-width:600px
-CSS placed inside will only activate when the screen size is <= 600px
+CSS placed inside will only activate when the screen size is <= 750px
 */
 @media (max-width: 750px) {
-  /* We will only have 2 columns from a screen size of 0px to 600px */
+  /* We will only have 2 columns from a screen size of 0px to 750px */
   .video-grid {
     grid-template-columns: 1fr 1fr;
   }
