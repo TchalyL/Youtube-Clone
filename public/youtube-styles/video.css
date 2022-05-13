@@ -82,6 +82,7 @@ CSS placed inside will only activate when the screen size is <= 750px
   font-weight: 500;
   line-height: 20px;
   margin-bottom: 10px;
+  color: black;
 }
 
 @media (min-width: 1000px) {
